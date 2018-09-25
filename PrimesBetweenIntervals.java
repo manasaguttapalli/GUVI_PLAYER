@@ -6,7 +6,7 @@ public class NoOfPrimesbetween {
 		int count=0;
 		int l=s.nextInt();
 		int n=s.nextInt();
-			for(int i=l+1;i<n;i++){
+			for(int i=l;i<=n;i++){
 				boolean prime=true;
 				for(int j=2;j<i;j++){
 					if(i%j==0){
