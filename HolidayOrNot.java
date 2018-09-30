@@ -22,7 +22,7 @@ public class HolidayOrNot {
 				System.out.println("no");
 				break;
 			case "Saturday":
-				System.out.println("no");
+				System.out.println("yes");
 				break;
 			case "Sunday":
 				System.out.println("yes");
