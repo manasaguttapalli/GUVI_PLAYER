@@ -1,5 +1,6 @@
+
 import java.util.Scanner;
-public class ShiftNTimes {
+public class ShiftNElements {
 
 	public static void main(String[] args) {
 		Scanner s=new Scanner(System.in);
@@ -7,6 +8,27 @@ public class ShiftNTimes {
 		int K=s.nextInt();
 		int count=0;
 		int a[]=new int[N];
+		if(N==2){
+			for(int i=0;i<N;i++){
+				a[i]=s.nextInt();
+			}
+			if(K%2==0){
+				
+				for(int i=0;i<N && i+1<N;i++){
+					System.out.println(a[i]+" "+a[i+1]);
+				}
+			}
+			else{
+				for(int i=0;i<N && i+1<N;i++){
+					int temp;
+					temp=a[i];
+					a[i]=a[i+1];
+					a[i+1]=temp;
+					System.out.print(a[i]+" "+a[i+1]);
+				}
+				
+			}
+		}
 		if(N==1){
 			int k=s.nextInt();
 			System.out.print(k);
@@ -51,3 +73,5 @@ public class ShiftNTimes {
 	}
 	}
 }
+
+	
