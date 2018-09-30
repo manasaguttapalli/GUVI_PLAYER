@@ -1,6 +1,5 @@
-
 import java.util.Scanner;
-public class ShiftNElements {
+public class ShiftKTimes {
 
 	public static void main(String[] args) {
 		Scanner s=new Scanner(System.in);
@@ -73,5 +72,3 @@ public class ShiftNElements {
 	}
 	}
 }
-
-	
