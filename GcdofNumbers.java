@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Gcd {
+public class GcdofNumbers {
 
 	public static void main(String[] args) {
 		Scanner s=new Scanner(System.in);
@@ -9,16 +9,19 @@ public class Gcd {
 
 	}
 
-	private static int gcd(int a, int b) {
-		if(a==0)
+	private static int gcd(int a, int b)
+		{
+			if(a==0)
 			return b;
-		if(b==0)
+			if(b==0)
 			return a;
-		if(a==b)
+			if(a==b)
 			return a;
-		if(a>b)
-			return gcd(a-b,b);
-		return gcd(a,b-a);
+			if(a>b)
+				{
+					return gcd(a-b,b);
+				}
+			return gcd(a,b-a);
 		
 	}
 
