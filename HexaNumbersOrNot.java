@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class HexaNumberOrNot {
+public class HexaNumbersOrNot {
 
 	public static void main(String[] args) {
 		Scanner s=new Scanner(System.in);
