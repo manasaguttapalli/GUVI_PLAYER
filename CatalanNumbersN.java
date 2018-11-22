@@ -1,5 +1,5 @@
 import java.util.Scanner;
- class CatalanNumber {
+ class CatalanNumberN {
 
 	public static void main(String[] args) {
 		Scanner s=new Scanner(System.in);
