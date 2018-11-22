@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class SumOfTheNegativeNumbers {
+public class SumOfNegativeNumbersInArray {
 
 	public static void main(String[] args) {
 		Scanner s=new Scanner(System.in);
